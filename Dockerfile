@@ -42,6 +42,7 @@ RUN pip install --no-cache-dir \
     opencv-python-headless \
     Pillow \
     runpod requests websocket-client \
+    sqlalchemy \
     && pip install --no-cache-dir --no-deps facenet-pytorch
 
 # Stage 5: Custom Nodes
